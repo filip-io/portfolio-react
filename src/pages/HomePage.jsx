@@ -69,15 +69,15 @@ export const HomePage = () => {
               </a>
             </div>
             <div>
-              <NavLink to="/projects">
-                <i className="fa-solid fa-code fa-2xl"></i>
-                <h4>Projects</h4>
+              <NavLink to="/aboutme">
+                <i className="fa-solid fa-face-smile fa-2xl"></i>
+                <h4>About me</h4>
               </NavLink>
             </div>
             <div>
-              <NavLink to="/experience">
-                <i className="fa-sharp fa-solid fa-music fa-2xl"></i>
-                <h4>Experiences</h4>
+              <NavLink to="/projects">
+                <i className="fa-solid fa-code fa-2xl"></i>
+                <h4>Projects</h4>
               </NavLink>
             </div>
           </div>

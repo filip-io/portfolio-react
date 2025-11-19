@@ -1,5 +1,6 @@
 import filipAboutPic from '../assets/filip-about.jpg';
 import techStack from '../assets/tech.json';
+import { NavLink } from 'react-router-dom';
 
 const techs = Object.keys(techStack);
 
@@ -44,6 +45,9 @@ export default function AboutMe() {
                     ))}
                 </article>
             </article>
+            <NavLink to="/projects">
+                <button className="btn projects-btn">Check out <br /> my projects</button>
+            </NavLink>
         </main>
     );
 }

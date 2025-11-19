@@ -74,6 +74,10 @@ h2 {
   text-shadow: 0 0 15px #ae4ffc;
 }
 
+.projects-btn {
+  margin-bottom: 40px;
+}
+
 p {
   font-family: "KoHo", sans-serif;
 }
@@ -390,7 +394,7 @@ li {
   align-items: center;
   flex-flow: row wrap;
   margin-top: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .about-me-container-box {
@@ -507,7 +511,7 @@ li {
     align-items: center;
     flex-flow: row wrap;
     margin-top: 30px;
-    margin-bottom: 64px;
+    margin-bottom: 20px;
   }
 
   .about-me-container-box {
@@ -542,6 +546,10 @@ li {
     text-align: center;
     margin-top: 30px;
     padding: 30px;
+  }
+
+  .projects-btn {
+    margin-bottom: 40px;
   }
 }
 

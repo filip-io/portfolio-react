@@ -63,7 +63,7 @@ export const HomePage = () => {
         <div className="home-intro-box">
           <div className="h4-container">
             <div>
-              <a href="../assets/Filip_Nilsson_CV.pdf" download="Filip_Nilsson_CV.pdf">
+              <a href="/Filip_Nilsson_CV.pdf" download="Filip_Nilsson_CV.pdf">
                 <i className="fa-solid fa-file-lines fa-2xl"></i>
                 <h4>CV</h4>
               </a>

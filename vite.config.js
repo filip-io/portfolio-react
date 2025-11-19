@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
   }
   
-  if (mode === 'cloudflare') {
+  if (mode === 'cloudflare' || mode === 'development') {
     return {
       ...baseConfig,
       base: '/'

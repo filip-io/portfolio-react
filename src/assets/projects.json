@@ -2,62 +2,46 @@
     "Projects": [
         {
             "id": "0",
-            "title": "ProductSync",
-            "description": "Scalable Data Integration with Azure",
-            "modal-title": "ProductSync",
+            "title": "Siemens SCM Nordics",
+            "description": "Layout and structure of new site",
+            "modal-title": "Siemens SCM Nordics",
             "modal-description": [
-                "A serverless Azure solution that automates product data transfer from Excel to Microsoft Dataverse (the backend for Dynamics 365).",
-                "The project addressed challenges related to integrating asynchronous, event-driven workflows into enterprise environments, with an emphasis on scalability, maintainability, and usability for sales operations.",
-                "Demonstrates how serverless Azure components can transform legacy data flows into resilient, cost-effective workflows — with potential applications across enterprise systems."
+                "In a previous role at Siemens I managed the migration from an old wiki-based platform to Microsoft SharePoint.",
+                "The project included collaboration with colleagues in the Siemens SCM (Supply Chain Management) Nordics team to be able to restructure the content and defining the layout."
             ],
-            "imgSrc": "productSyncLogo",
-            "url": "http://www.linkedin.com/in/filipnilsson-link/details/projects/",
-            "urlText": "ProductSync project"
+            "imgSrc": "siemensLogo",
+            "url": "",
+            "componentUrl": "/siemensgallery",
+            "urlText": "Siemens SCM Sharepoint"
         },
         {
             "id": "1",
-            "title": "Reliable Reservations",
-            "description": "API for managing a restaurant",
-            "modal-title": "Reliable Reservations",
+            "title": "BankNyBank",
+            "description": "Console application",
+            "modal-title": "BankNyBank (BankNewBank)",
             "modal-description": [
-                "A backend system designed to streamline restaurant management operations.",
-                "I built the system using a layered architecture with controllers, services, and repositories, leveraging dependency injection to enhance modularity, testability, and scalability.",
-                "The database is built using a code-first approach with Entity Framework Core, allowing the schema to be generated and managed directly from the application's data models."
+                "BankNyBank (BankNewBank) is a console app built with C# that emulates a simple bank-app/ATM.",
+                "The program was a school group project."
             ],
-            "imgSrc": "reliableReservationsLogo",
-            "url": "https://github.com/filip-io/Reliable-Reservations",
-            "urlText": "Reliable Reservations API"
+            "imgSrc": "bankLogo",
+            "url": "https://github.com/filip-io/BankNyBank",
+            "urlText": "BankNyBank"
         },
         {
             "id": "2",
-            "title": "Fantasy Chass",
-            "description": "AI-powered roleplaying game",
-            "modal-title": "Fantasy Chass Game",
+            "title": "Interests API",
+            "description": "Minimal API with restful architecture",
+            "modal-title": "Interests API",
             "modal-description": [
-                "In this project I collaborated with several other teams to create an innovative and engaging product. Fantasy Chass is a roleplaying game powered by AI, offering unique scenarios tailored by an AI game master.",
-                "The backend was developed by my team, which uses .NET with Identity for secure and efficient user authentication. ChatGPT and DALL-E are integrated for dynamic storytelling and stunning visuals.",
-                "The frontend team used React and Vite to ensure a modern, fast, and interactive interface. UX designers crafted interfaces and the DevOps team facilitated smooth deployment and maintenance."
+                "This was my first API. It's built using ASP.NET Core with Minimal API, implementing RESTful architecture.",
+                "The API is managing viewing and storing people, their interests and corresponding links using HTTP verbs."
             ],
-            "imgSrc": "fantasyChassLogo",
-            "url": "https://github.com/filip-io/FantasyChas-Backend.git",
-            "urlText": "Fantasy Chass"
+            "imgSrc": "apiLogo",
+            "url": "https://github.com/filip-io/Mini_project-API",
+            "urlText": "Interests API"
         },
         {
             "id": "3",
-            "title": "Portfolio site",
-            "description": "Personal website",
-            "modal-title": "Portfolio site",
-            "modal-description": [
-                "In this project I learned how to build my own portfolio (the very site you are visiting right now) using React Vite which provided a fast and efficient development environment.",
-                "I utilized React to build the user interface components and Vite for bundling and serving the application during development.",
-                "The project showcases the integration of state management, routing and responsive design."
-            ],
-            "imgSrc": "portfolioReact",
-            "url": "https://github.com/filip-io/Portfolio-react",
-            "urlText": "React Vite project"
-        },
-        {
-            "id": "4",
             "title": "Audial Atlas",
             "description": "Music API with restful architecture",
             "modal-title": "Audial Atlas music API",
@@ -71,44 +55,74 @@
             "urlText": "AudialAtlasService"
         },
         {
-            "id": "5",
-            "title": "Interests API",
-            "description": "Minimal API with restful architecture",
-            "modal-title": "Interests API",
+            "id": "4",
+            "title": "Portfolio site",
+            "description": "Personal website",
+            "modal-title": "Portfolio site",
             "modal-description": [
-                "This was my first API. It's built using ASP.NET Core with Minimal API, implementing RESTful architecture.",
-                "The API is managing viewing and storing people, their interests and corresponding links using HTTP verbs."
+                "In this project I learned how to build my own portfolio (the very site you are visiting right now) using React Vite which provided a fast and efficient development environment.",
+                "I utilized React to build the user interface components and Vite for bundling and serving the application during development.",
+                "The project showcases the integration of state management, routing and responsive design."
             ],
-            "imgSrc": "apiLogo",
-            "url": "https://github.com/filip-io/Mini_project-API",
-            "urlText": "Interests API"
+            "imgSrc": "portfolioReact",
+            "url": "https://github.com/filip-io/Portfolio-react",
+            "urlText": "React Vite project"
+        },
+        {
+            "id": "5",
+            "title": "Fantasy Chass",
+            "description": "AI-powered roleplaying game",
+            "modal-title": "Fantasy Chass Game",
+            "modal-description": [
+                "In this project I collaborated with several other teams to create an innovative and engaging product. Fantasy Chass is a roleplaying game powered by AI, offering unique scenarios tailored by an AI game master.",
+                "The backend was developed by my team, which uses .NET with Identity for secure and efficient user authentication. ChatGPT and DALL-E are integrated for dynamic storytelling and stunning visuals.",
+                "The frontend team used React and Vite to ensure a modern, fast, and interactive interface. UX designers crafted interfaces and the DevOps team facilitated smooth deployment and maintenance."
+            ],
+            "imgSrc": "fantasyChassLogo",
+            "url": "https://github.com/filip-io/FantasyChas-Backend.git",
+            "urlText": "Fantasy Chass"
         },
         {
             "id": "6",
-            "title": "BankNyBank",
-            "description": "Console application",
-            "modal-title": "BankNyBank (BankNewBank)",
+            "title": "Reliable Reservations",
+            "description": "API for managing a restaurant",
+            "modal-title": "Reliable Reservations",
             "modal-description": [
-                "BankNyBank (BankNewBank) is a console app built with C# that emulates a simple bank-app/ATM.",
-                "The program was a school group project."
+                "A backend system designed to streamline restaurant management operations.",
+                "I built the system using a layered architecture with controllers, services, and repositories, leveraging dependency injection to enhance modularity, testability, and scalability.",
+                "The database is built using a code-first approach with Entity Framework Core, allowing the schema to be generated and managed directly from the application's data models."
             ],
-            "imgSrc": "bankLogo",
-            "url": "https://github.com/filip-io/BankNyBank",
-            "urlText": "BankNyBank"
+            "imgSrc": "reliableReservationsLogo",
+            "url": "https://github.com/filip-io/Reliable-Reservations",
+            "urlText": "Reliable Reservations API"
         },
         {
             "id": "7",
-            "title": "Siemens SCM Nordics",
-            "description": "Layout and structure of new site",
-            "modal-title": "Siemens SCM Nordics",
+            "title": "ProductSync",
+            "description": "Scalable Data Integration with Azure",
+            "modal-title": "ProductSync",
             "modal-description": [
-                "In a previous role at Siemens I managed the migration from an old wiki-based platform to Microsoft SharePoint.",
-                "The project included collaboration with colleagues in the Siemens SCM (Supply Chain Management) Nordics team to be able to restructure the content and defining the layout."
+                "A serverless Azure solution that automates product data transfer from Excel to Microsoft Dataverse (the backend for Dynamics 365).",
+                "The project addressed challenges related to integrating asynchronous, event-driven workflows into enterprise environments, with an emphasis on scalability, maintainability, and usability for sales operations.",
+                "Demonstrates how serverless Azure components can transform legacy data flows into resilient, cost-effective workflows — with potential applications across enterprise systems."
             ],
-            "imgSrc": "siemensLogo",
-            "url": "",
-            "componentUrl": "/siemensgallery",
-            "urlText": "Siemens SCM Sharepoint"
+            "imgSrc": "productSyncLogo",
+            "url": "http://www.linkedin.com/in/filipnilsson-link/details/projects/",
+            "urlText": "ProductSync project"
+        },
+                {
+            "id": "8",
+            "title": "Portfolio site",
+            "description": "Headless",
+            "modal-title": "Portfolio Umbraco Headless",
+            "modal-description": [
+                "In this project I built the third iteration of my portfolio. The site is using Umbraco's headless Content Delivery API to fetch content as JSON and display it through a React frontend.",
+                "This approach improved my skills in content modeling, API integration, and asynchronous data handling, ensuring a performant and dynamic site.",
+                "The project also taught me to map CMS data structures to flexible React components for easier maintenance and updates."
+            ],
+            "imgSrc": "umbracoLogo",
+            "url": "https://github.com/filip-io/Portfolio-Umbraco-React",
+            "urlText": "Portfolio Umbraco React repo"
         }
     ]
 }

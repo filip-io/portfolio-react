@@ -1,5 +1,6 @@
     import { useState } from 'react'
     import projectsData from '../assets/projects.json'
+    import umbracoLogo from '../assets/umbraco.webp'
     import productSyncLogo from '../assets/productsync.png'
     import reliableReservationsLogo from '../assets/apisystem_logo.jpg'
     import fantasyChassLogo from '../assets/fantasychass.jpg'
@@ -13,6 +14,7 @@
     import ScrollToTopButton from '../components/ScrollToTopButton';
 
     const imageMap = {
+        umbracoLogo,
         productSyncLogo,
         reliableReservationsLogo,
         fantasyChassLogo,
@@ -74,7 +76,7 @@
                     </div>
                 </header>
                 <article className="projects-container">
-                    {projectsData.Projects.map((proj, index) => (
+                    {projectsData.Projects.slice().reverse().map((proj, index) => (
                         <div className={`project-container-${index % 2 === 0 ? 'left' : 'right'}`} key={proj.id}>
                             <div className="projects-img-wrapper">
                                 {renderProjectImage(proj.imgSrc)}

@@ -70,7 +70,7 @@ export const HomePage = () => {
             </div>
             <div>
               <NavLink to="/aboutme">
-                <i className="fa-solid fa-face-smile fa-2xl"></i>
+                <i className="fa-solid fa-face-grin-beam fa-2xl"></i>
                 <h4>About me</h4>
               </NavLink>
             </div>

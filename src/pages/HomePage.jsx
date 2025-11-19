@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import MagicWordModal from '../components/MagicWordModal';
 import filipPic from '../assets/filip.jpg';
 
@@ -51,27 +52,33 @@ export const HomePage = () => {
         </div>
       </div>
 
-      <article className="home-intro-container">
+      {/* <article className="home-intro-container">
         <h3>Check out the new version of my portfolio <a href="https://filip-io.github.io/" target="_blank" rel="noopener noreferrer">here</a></h3>
-      </article>
+      </article> */}
 
       <article className="home-intro-container">
-        <div>
+        {/* <div>
           <h3>A Few Tidbits About Me:</h3>
-        </div>
+        </div> */}
         <div className="home-intro-box">
           <div className="h4-container">
             <div>
-              <i className="fa-solid fa-keyboard fa-2xl"></i>
-              <h4>Web Developer</h4>
+              <a href="../assets/Filip_Nilsson_CV.pdf" download="Filip_Nilsson_CV.pdf">
+                <i className="fa-solid fa-file-lines fa-2xl"></i>
+                <h4>CV</h4>
+              </a>
             </div>
             <div>
-              <i className="fa-solid fa-face-grin-beam fa-2xl"></i>
-              <h4>UX Enthusiast</h4>
+              <NavLink to="/projects">
+                <i className="fa-solid fa-code fa-2xl"></i>
+                <h4>Projects</h4>
+              </NavLink>
             </div>
             <div>
-              <i className="fa-sharp fa-solid fa-music fa-2xl"></i>
-              <h4>HiFi Nerd</h4>
+              <NavLink to="/experience">
+                <i className="fa-sharp fa-solid fa-music fa-2xl"></i>
+                <h4>Experiences</h4>
+              </NavLink>
             </div>
           </div>
         </div>
